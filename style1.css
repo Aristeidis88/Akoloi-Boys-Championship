@@ -2,7 +2,7 @@ html {height:100%;}
 
 
 body {background-color:rgb(12, 77, 82);
-      background-image: url(images/background-image.jpg);
+      background-image: url(background-image.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;}
