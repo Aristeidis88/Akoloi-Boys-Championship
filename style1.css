@@ -1,0 +1,36 @@
+html {height:100%;}
+
+
+body {background-color:rgb(12, 77, 82);
+      background-image: url(images/background-image.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;}
+
+     
+     
+ h1 {
+      color:silver;
+      font-style: italic;
+      font-size: 80px;
+      text-align: center;}
+
+main {background-color: rgba(0, 0, 0, 0.425);
+     height: 295px;
+     margin-top: 130px;
+     padding-left: 300px; }
+
+
+img {float: left; padding-right: 20px;}
+p {text-align: left;color: white;padding-left:180px;}
+
+footer {height: 25px;
+    background-color:rgba(12, 77, 82, 0.445) ;
+    margin-top: 110px;
+    }
+footer p{color: white;
+     font-size: 15px;
+padding-top: 4px;
+text-align: center;}
+
+a {color: white;}

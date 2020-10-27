@@ -1,0 +1,226 @@
+html {height:100%;width: 100%;}
+
+
+body {background-color:rgb(12, 77, 82);
+      background-image: url(images/background-image.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;}
+
+.container 
+       {margin-left: auto;
+        margin-right: auto;
+        width: 1280px;
+        text-align: center;}
+
+
+header {height: 120px;}
+
+a {color: white;}
+
+
+main {background-color: rgba(0, 0, 0, 0.425);
+    height: 240px;
+    text-align: center;
+    margin-top: 130px;}
+    
+nav {background-color:rgba(0, 0, 0, 0.199);
+     margin-top: -20px;
+     color: white;
+     padding-top: 14px;
+     padding-bottom: 14px;
+}   
+
+    
+footer {height: 25px;
+       background-color:rgba(12, 77, 82, 0.445) ;
+       margin-top: 150px;
+       }
+footer p{color: white;
+        font-size: 15px;
+padding-top: 4px;}
+
+
+
+
+
+
+
+h1 {
+    color:silver;
+    font-style: italic;
+    font-size: 80px;
+    text-align: center;
+
+}
+ 
+ h2 {
+     color:red ;
+     font-size: 50px;
+ }
+
+ h3 {color:silver;
+       font-style: italic;
+       font-size: 50px;
+       text-align: center;}
+ 
+ p {
+     color:silver;
+     font-size: 20px;
+ }
+ .box1 {background-color: red;
+        width: 300px;
+        height: 25px; 
+        color: black;
+        text-align:center;
+        font-size: 22px;
+        margin-right: auto;}
+
+ .box2 {background-color:steelblue;
+        width: 300px;
+        height: 25px;
+        color: cornsilk;
+        text-align:center;
+        font-size: 22px;
+        margin-right: auto;}
+
+ .box3 {background-color:black;
+        width: 300px;
+        height: 25px;
+        color: crimson;
+        text-align:center;
+        font-size: 22px;
+        margin-right: auto;}
+
+ .box4 {color: silver;
+        width: 750px;
+        height: 75px;
+        text-align:center;
+        font-size: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;}
+
+ .box5 {background-color: red;
+        width: 300px;
+        height: 25px; 
+        color: black;
+        text-align:center;
+        font-size: 22px;
+        margin-left: auto;
+        margin-top: -70px;}
+
+ .box6 {background-color:steelblue;
+        width: 300px;
+        height: 25px;
+        color: cornsilk;
+        text-align:center;
+        font-size: 22px;
+        margin-left: auto;}
+
+ .box7 {background-color:black;
+        width: 300px;
+        height: 25px;
+        color: crimson;
+        text-align:center;
+        font-size: 22px;
+        margin-left: auto;}
+
+ nav a {text-decoration: none;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;}
+
+main div{padding-left: 175px;
+         color: white;
+       font-style: italic;}
+         
+          .column1,.column2,.column3 {
+              float:right;
+              float: left;
+              width: 3%;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+           
+       
+            @media only screen and (max-width:500px) 
+            /* For mobile phones: */
+            {body {background-color:rgb(12, 77, 82);
+              background-image: url(images/background-image.jpg);
+              background-size: 2400px;
+              background-repeat: no-repeat;
+              background-position: center;}
+
+
+       
+
+          
+           header{padding-top: 40px; padding-right: 10px;}
+
+          .menu 
+          {display:inline-block;
+           list-style: none;
+           padding-top: 70px;}
+
+
+          .menu a
+          {font-family: Arial, Helvetica, sans-serif;
+           font-size: 42px; 
+           font-weight: 900; 
+           color: white;  }
+
+           main p
+           {font-size: 38px;}
+      
+
+           .row
+           {font-size: 60px;}
+
+           .column1 img
+           {width:400px; height: 400px;
+            margin-left: 40px;}
+
+            .column2 img{width:400px; height: 400px;
+       margin-top: 600px;
+       margin-left: -160px;}
+
+           .column3 img{width:400px; height: 400px;
+              margin-top: 1200px;
+              margin-left: -360px;}
+
+       
+       main{height: 50px;}
+
+
+       .column1 a {float: left;
+       margin-left: 120px;}
+
+       .column2 a {float: left;
+       margin-left: -110px;}
+
+       .column3 a {float: left;
+       margin-left: -340px;}
+
+       footer { margin-top: 2100px;
+       font-size: 50px;}
+
+       footer p {font-size: 40px;}
+
+}
+             
+       
+
+
+            
+            
+       
+       
+       
+
+              
